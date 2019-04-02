@@ -1,0 +1,12 @@
+{
+  "title": "Urcad.es",
+  "description": "Personal Site of Édouard Urcades",
+  "links": {
+    "payment": [
+      {
+        "href": "https://cash.me/$edouard",
+        "type": "text/html"
+      }
+    ]
+  }
+}

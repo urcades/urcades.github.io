@@ -1,0 +1,55 @@
+/* Document styling */
+body {
+  max-width: 80vw;
+  font-size: 1.5em;
+  margin: 3em 3em;
+  font-family: "Times New Roman", serif;
+  font-variant-ligatures: common-ligatures;
+}
+@media screen and (max-width: 800px) {
+  body {
+    margin: 1.5em 1.5em;
+    max-width: 100%;
+  }
+}
+article {
+  max-width: 50vw;
+}
+@media screen and (max-width: 30em) {
+  article {
+    max-width: 100vw;
+  }
+}
+
+/* Text styling */
+a {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+li {
+  margin-bottom: 0.6em;
+}
+
+/* Image styling */
+img {
+  max-width: 18vw;
+}
+
+/* Misc. classes */
+.collection {
+  max-width: 1000px;
+}
+.arial {
+  font-family: "Arial", sans-serif;
+  font-size: 0.9em;
+}
+.italic-serif {
+  font: italic 0.9em "Arial";
+}
+/* .hang {
+  hanging-punctuation: first;
+} */
+.hang-fallback {
+  text-indent: -0.5em;
+}
