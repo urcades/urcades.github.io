@@ -38,6 +38,9 @@ li {
 img {
   max-width: 18vw;
 }
+article > img {
+  max-width: 100%;
+}
 
 /* Misc. classes */
 .collection {
