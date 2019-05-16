@@ -35,6 +35,10 @@
       article img {
         max-width: 30em;
       }
+      iframe {
+        width: 100%;
+        height: 100vh; 
+      }
       @media screen and (max-width: 30em) {
         article {
           max-width: 100%;
@@ -50,16 +54,17 @@
         color: goldenrod;
         text-decoration: none;
       }
+      sup {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: .5em;
+      }
       .serif {
         font-family: Arial, Helvetica, sans-serif;
       }
       .vimeo {
         max-width: 30em;
       }
-      iframe {
-        width: 100%;
-        height: 100vh; 
-      }
+      
     </style>
   </head>
   
@@ -75,9 +80,10 @@
     <p style="padding-bottom: 6em;"><a href="/">Go back to index</a></p>
 
     <article>
-      <p>TL;DR: I co-founded and branded and built IBM Community Radio, a side–project–turned–platform for critical thought, culture renewal, and good music. I prototyped the initial front–end player/schedule interfaces, co-ordinated formative on-air content, and educated folks on how to get up and running quickly on the network. I also guerilla advertised the hell out of the first live broadcasts and earned us our initial notoriety within IBM’s Austin design studio.</p>
+      <p><em>Project Context</em></p>
+<p>I co-founded and branded and built IBM Community Radio, a side–project–turned–platform for critical thought, culture renewal, and good music. I prototyped the initial front–end player/schedule interfaces, co-ordinated formative on-air content, and educated folks on how to get up and running quickly on the network. I also guerilla advertised the hell out of the first live broadcasts and earned us our initial notoriety within IBM’s Austin design studio.</p>
 <p>As of November 2016, IBM Community Radio had been cited as reaching “…between 5,000 and 6,000 people [within IBM] daily.”, according to <a href="https://www.fastcompany.com/3065882/startup-report/ibms-unlikely-silo-buster-an-intranet-radio-station">Fast Company</a>.</p>
-<p>Here are some exciting images depicting how people felt about IBM Community Radio:</p>
+<p>Here are some exciting images demonstrating how company-wide listeners felt about IBM Community Radio:</p>
 <p><img src="https://urcad.es/works/ibm/1.png" alt="" />
 <img src="https://urcad.es/works/ibm/2.png" alt="" />
 <img src="https://urcad.es/works/ibm/3.png" alt="" />
@@ -102,9 +108,15 @@
 <iframe src="http://share.framerjs.com/6tbeuyxvqoj3/"></iframe>
 <p>I was heavily inspired by the twisting of our existing design language — up until this point, the efforts of distinguishing IBM’s visual design were very much in flux, and it wasn’t exactly kosher to fuck around with the elements sanctified by our Global Branding teams, our logotype included — I was drawn to the extending of the 8-bars that constituted the “I” in “IBM” and turned them on their side, representing them as EQ bars. It was around this time that I had begun to plug static designs into prototyping tooling (Framer primarily) and give them life:</p>
 <iframe src="https://urcades.github.io/prototyping/framer/ibm/mobile-radio.framer/index.html"></iframe>
-<p>While extending the functionality of designs was nice, I felt that what we most needed at the time was an actually-usable front end for our radio, so I began the task of prototyping a basic radio/scheduling interface in Codepen, which was much more responsive and design friendly than editing static files in Github. I ended up with this:</p>
-<p><img src="https://urcad.es/works/ibm/11b.gif" alt="" /></p>
-<p>Soon after a few prototypes of this nature were completed, our tiny radio admin team was unexpectedly bolstered by the efforts of 5 full time developers, who had been hunting around the Austin studio for a “hack project” they could finish up in a week. More quickly than we had thought possible, our radio began to take form, and was soon equipped with the ability to log into the player itself and provide set/track titles, which were archived for later retrieval.</p>
+<p>While extending the functionality of designs was nice, I felt that what we most needed at the time was an actually-usable front end for our radio, so I began the task of prototyping a basic (<em>heavy</em> emphasis on basic, lol) radio/scheduling interface in Codepen, which was much more responsive and design-friendly than editing static files in Github. I ended up with this:</p>
+<p class="codepen" data-height="439" data-theme-id="light" data-default-tab="result" data-user="edouerd" data-slug-hash="QjEGGr" style="height: 439px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="IBM Community Radio, Rough">
+  <span>See the Pen <a href="https://codepen.io/edouerd/pen/QjEGGr/">
+  IBM Community Radio, Rough</a> by Edouard U. (<a href="https://codepen.io/edouerd">@edouerd</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<p>I've long since improved my ability to prototype out interfaces like this, but this is a good demarcation of what I was able to quickly hack together at the time.</p>
+<p>After a few prototypes of this nature were completed, our tiny radio admin team was unexpectedly bolstered by the efforts of 5 full time developers, who had been hunting around the Austin studio for a “hack project” they could finish up in a week. More quickly than we had thought possible, our radio began to take form, and was soon equipped with the ability to log into the player itself and provide set/track titles, which were archived for later retrieval.</p>
 <p>The ‘beta’ prototype video at the top of this case study is a working example of the radio interface at this point.</p>
 <p>As we reached a proper “Version One”, we managed to secure studio funding for the purchase of broadcasting software for other stations around the world, and had begun to structure out how international radio programming would operate. The bulk of this work entailed hefty documentation, some of which <a href="http://urcad.es/radio-setup/">I wrote and made available on public github</a>. I ended up continuing this work on our internal instance, as it became more stable.</p>
 <p><img src="https://urcad.es/works/ibm/12.png" alt="" /></p>
