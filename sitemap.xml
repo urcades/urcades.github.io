@@ -56,13 +56,6 @@
         </url>
     
         <url>
-            <loc>https://urcad.es/writing/infrastructure/</loc>
-            
-                <lastmod>2019-02-25</lastmod>
-            
-        </url>
-    
-        <url>
             <loc>https://urcad.es/writing/knowledge-networks/</loc>
             
                 <lastmod>2018-08-22</lastmod>
@@ -101,6 +94,13 @@
             <loc>https://urcad.es/writing/reading-networks/</loc>
             
                 <lastmod>2017-04-04</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>https://urcad.es/writing/rfc001/</loc>
+            
+                <lastmod>2019-02-25</lastmod>
             
         </url>
     
